@@ -39,18 +39,21 @@
 
     <v-content>
       <HelloWorld/>
+      <Wyszukiwarka/>
     </v-content>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import Wyszukiwarka from './components/Wyszukiwarka';
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    Wyszukiwarka
   },
 
   data: () => ({
